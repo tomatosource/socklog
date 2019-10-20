@@ -6,7 +6,7 @@ Built upon [Gorilla's Websocket package.]("github.com/gorilla/websocket")
 
 ## Installation
 
-```bash
+```
 go install "github.com/tomatosource/socklog"
 ```
 
@@ -14,7 +14,7 @@ go install "github.com/tomatosource/socklog"
 
 Start the server:
 
-```bash
+```
 $ socklog
 Listening for logs...
 
