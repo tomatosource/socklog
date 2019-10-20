@@ -25,7 +25,7 @@ func handleLog(w http.ResponseWriter, r *http.Request) {
 			log.Println("read:", err)
 			break
 		}
-		log.Printf("recv: %s", message)
+		log.Printf("%s", message)
 	}
 }
 
