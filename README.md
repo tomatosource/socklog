@@ -32,3 +32,12 @@ log.SetOutput(socklogger)
 ```go
 log.Print("hello world")
 ```
+
+## Options
+
+```
+$ socklog --help
+Usage of socklog:
+  -addr string
+    	http service address (default "localhost:8080")
+```
