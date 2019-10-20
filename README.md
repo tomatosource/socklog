@@ -12,7 +12,7 @@ go install "github.com/tomatosource/socklog"
 
 ## Usage
 
-Start the server:
+### Start the server
 
 ```
 $ socklog
@@ -20,14 +20,14 @@ Listening for logs...
 
 ```
 
-Initialise your logger:
+### Initialise your logger
 ```go
 socklogger := socklog.MustNewLogger("localhost:8080")
 defer socklogger.Close()
 log.SetOutput(socklogger)
 ```
 
-Log as normal:
+### Log as normal
 
 ```go
 log.Print("hello world")
