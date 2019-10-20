@@ -41,3 +41,7 @@ Usage of socklog:
   -addr string
     	http service address (default "localhost:8080")
 ```
+
+## Other Features
+
+None planned, but this whole repository is less than 100 lines of Go (not counting examples) so should be fairly easy to poke around in and extend for your use case.
