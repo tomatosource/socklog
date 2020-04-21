@@ -7,7 +7,7 @@ Built upon [Gorilla's Websocket package.]("github.com/gorilla/websocket")
 ## Installation
 
 ```
-go install "github.com/tomatosource/socklog"
+go get github.com/tomatosource/socklog
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ Listening for logs...
 
 ### Initialise your logger
 ```go
-socklogger := socklog.MustNewLogger("localhost:8080")
+socklogger := socklog.MustNew("localhost:8080")
 defer socklogger.Close()
 log.SetOutput(socklogger)
 ```
