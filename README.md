@@ -1,6 +1,6 @@
 # socklog
 
-A basic websocket logging util library to help debug terminalUI applications written in Go.
+A basic websocket logging util library to help debug terminal UI applications, or any app thats tricky to write to log to std out, written in Go.
 
 Built upon [Gorilla's Websocket package.]("github.com/gorilla/websocket")
 
